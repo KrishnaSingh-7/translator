@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: rgb(63, 142, 116);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 650px;
+  height: 600px;
+  background: linear-gradient(to top ,   rgb(188, 237, 221), rgb(36, 108, 84) );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.text{
+  width: 100%;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+
+}
+#FromText{
+  width: 100%;
+  height: 260px;
+  margin-left: 7px;
+  padding: 20px;
+ color: black;
+ background-color: white;
+ border: none;
+ border-radius:5px ;
+ font-size: 18px;
+ box-sizing: border-box;
+}
+#ToText{
+  width: 100%;
+  height: 260px;
+  margin-right: 7px;
+  padding: 20px;
+  color:black;
+ background-color: white;
+ border: none;
+ border-radius:5px ;
+ font-size: 18px;
+ box-sizing: border-box;
+}
+.selectArea{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  margin: 20px;
+}
+.select1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-right: 5px solid  rgb(74, 159, 131) ;
+ 
+  border-radius: 3px;
+ 
+}
+.select2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-left: 5px solid rgb(74, 159, 131) ;
+ 
+  border-radius: 3px;
+ 
+}
+#fselect{
+  padding: 10px 40px 10px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+#sselect{
+  padding: 10px 40px 10px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+ cursor: pointer;
+}
+#transfer{
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#transfer:hover{
+cursor: pointer;
+transform: scale(110%);
+transition: o.3s all;
+}
+.speaker{
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.speaker:hover{
+  transform: scale(130%);
+}
+
+.copy{
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.copy:hover{
+  transform: scale(130%);
+}

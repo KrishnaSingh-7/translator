@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TranslateApp</title>
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="text">
+      <textarea name="" id="FromText" placeholder="Enter Text"></textarea>
+      <textarea name="" id="ToText" placeholder="Translate"></textarea>
+    </div>
+    <div class="selectArea">
+      <div class="select1">
+        <img src="/copy.svg" alt="not show" class="copy" id="from">
+        <img src="/speaker.svg" alt="error" class="speaker" id="from">
+        <select name="" id="fselect" >
+           <!-- <option value="en-GB">English</option> -->
+          <!-- <option value="hi-IN">Hindi</option>  ye bs dikhane ke liye tha  -->
+        </select>
+      </div>
+      <div class="select2">
+        <img src="/copy.svg" alt="not show" class="copy" id="to">
+        <img src="/speaker.svg" alt="error" class="speaker" id="to">
+        <select name="" id="sselect" class="">
+          <!-- <option value="hi-IN">Hindi</option> -->
+          <!-- <option value="en-GB">English</option> -->
+          
+        </select>
+      </div>
+    </div>
+<button id="transfer">Translate</button>
+  </div>
+  <script src="/countries.js"></script>
+ <script src="/script.js"></script>
+</body>                        
+</html>
